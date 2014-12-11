@@ -21,3 +21,6 @@
 **Exit from (venv)**
 
 1. `deactivate`
+
+
+view sit on http://d-poddubny.github.io/mgk/
