@@ -1,0 +1,14 @@
+.layout_t1 {
+    width:  1088px;
+    margin: 0 auto;
+}
+
+.col_t1 {
+    width: 618px;
+    float: left;
+}
+
+.col_t2 {
+    width: 428px;
+    float: left;
+}
