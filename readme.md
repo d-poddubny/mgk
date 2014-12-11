@@ -15,7 +15,7 @@
 
 **Run deploy**
 
-1. `ghp-import -p dest`
+1. `ghp-import -p src`
 
 
 **Exit from (venv)**
