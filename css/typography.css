@@ -16,18 +16,18 @@
         margin-top: 12px;
     }
 
-    .article-item .header-h1,
-    .article-item .header-h2 {
+    .article-item .header-title,
+    .article-item .header-subtitle {
         text-transform: uppercase;
         
     }
 
-    .article-item .header-h1 {
+    .article-item .header-title {
         font-size: 16px;
         margin-bottom: 4px;
     }
 
-    .article-item .header-h2 {
+    .article-item .header-subtitle {
         color: #bf1e2d;
         margin-bottom: 4px;
         font-size: 18px;
@@ -48,7 +48,6 @@
 }
 
 
-
 .article-item h1,
 .article-item h2,
 .article-item h3,
@@ -56,4 +55,16 @@
 .article-item h5,
 .article-item p {
     margin-bottom: 22px;
+}
+
+
+
+.header-title {
+    color: #bf1e2d;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.articles_list_item p {
+    margin-bottom: 16px;
 }
