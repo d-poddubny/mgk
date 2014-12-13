@@ -25,17 +25,18 @@ body {
 }
 
 a {
-	color: #bf1e2d;
-	text-decoration: underline;
+    color: #bf1e2d;
+    text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .float_left { float: left!important; }
 
 .float_right { float: right!important; }
+
 
 .page_header {
 	background: url('../img/header_gradient_l.png') 0 100% no-repeat,
@@ -102,10 +103,6 @@ a:hover {
 	margin: 0 auto;
 }
 
-/* ======================================
-   Navigation
-   ====================================== */
-
 .main .main_nav {
 	margin-bottom: 40px;
 }
@@ -115,6 +112,7 @@ a:hover {
 	background: #d8d8d8;
 	height: 40px;
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .main_nav .menu li {
@@ -187,8 +185,6 @@ a:hover {
 	right: 0;
 }
 
-/********************************************************/
-
 .left_col {
 	width: 654px;
 	float: left;
@@ -223,7 +219,7 @@ a:hover {
 }
 
 .posts_footer .more_posts {
-	background: url("../img/arrow_r.gif") 0 0 no-repeat;
+	background: url("../img/arrows.png") -69px 0 no-repeat;
 	width: 28px;
 	height: 28px;
 	position: absolute;
@@ -368,8 +364,10 @@ a:hover {
 .news_block .overlay_text {
 	background: rgba(191, 30, 45, 0.9);
 	color: #fff;
+	font-size: 13px;
 	width: 100%;
-	min-height: 60px;
+	min-height: 40px;
+	padding: 10px 0;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -377,8 +375,9 @@ a:hover {
 }
 
 .news_block .overlay_text_content {
-	display: block;
-	padding: 10px 20px;
+	display: inline-block;
+	padding: 0 14px;
+	vertical-align: middle;
 }
 
 .grid .news_block_item {
@@ -391,7 +390,6 @@ a:hover {
 	margin-left: 0;
 }
 
-/********************************************************/
 
 .carousel {
 	position: relative;
@@ -410,7 +408,7 @@ a:hover {
 }
 
 .carousel .nav_el {
-	background-image: url('../img/arrows_large.gif');
+	background-image: url('../img/arrows.png');
 	width: 34px;
 	height: 43px;
 	position: absolute;
@@ -566,10 +564,10 @@ a:hover {
 
 .page_footer .code {
 	font-size: 22px;
-	-moz-transform: rotate(-90deg); /* Для Firefox */
-    -ms-transform: rotate(-90deg); /* Для IE */
-    -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(-90deg); /* Для Opera */
+	-moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: absolute;
     top: 19px;
@@ -633,3 +631,79 @@ a:hover {
 		color: #bf1e2d;
         margin-top: 12px;
 	}
+
+.pages_nav {
+	text-align: center;
+	padding-top: 17px;
+}
+
+.pages_nav_item {
+	border: 1px solid #9b9b9b;
+	display: inline-block;
+	color: #696969;
+	font-size: 10px;
+	line-height: 16px;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.pages_nav_item.active {
+	border-color: #bf1e2d;
+	color: #bf1e2d;
+}
+
+.pages_nav .btn_nav {
+	background: url('../img/arrows.png') -98px 0 no-repeat;
+	border: none;
+	width: 18px;
+	height: 18px;
+}
+
+.pages_nav .btn_nav.next {
+	background-position: -116px 0;
+}
+
+.article_main {
+	margin-bottom: 17px;
+}
+
+.articles_list {
+	width: 346px;
+	float: left;
+}
+
+.articles_list_item {
+	margin-bottom: 20px;
+}
+
+.articles_list_item_t1 {
+	overflow: hidden;
+	height: 237px;
+}
+
+.articles_list_item_t2 {
+	overflow: hidden;
+	height: 161px;
+}
+
+.articles_list_item_text_block {
+	border: 1px solid #696969;
+	padding: 16px 13px 24px;
+	position: relative;
+}
+
+.see_more {
+	background: url('../img/arrows.png') -116px 0 no-repeat;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	right: 0;
+	bottom: 0;
+}
+
+.article_main .photo,
+.articles_list_item .photo {
+	vertical-align: middle;
+}
