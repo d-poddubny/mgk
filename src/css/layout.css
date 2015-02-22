@@ -1,19 +1,52 @@
-.layout_t1 {
-    width:  1088px;
-    margin: 0 auto;
+.layout {
+  width: 1000px;
+  margin:0 auto;
 }
 
+.row { margin-bottom: 15px; }
+
 .col_t1 {
-    width: 618px;
-    float: left;
+	width: 652px;
+	float: left;
 }
 
 .col_t2 {
-    width: 428px;
-    float: left;
+	width: 574px;
+	float: right;
 }
 
 .col_t3 {
-	width: 715px;
-	float: left;
+    width: 628px;
+    float: left;
 }
+
+.col_t4 {
+    width: 346px;
+    float: left;
+}
+
+.col_t5 {
+    width: 260px;
+    float: left;
+}
+
+.col_t6 {
+    width: 492px;
+    float: left;
+}
+
+.b1 { min-height: 602px; }
+
+.b2 { min-height: 176px; }
+
+.b3 { min-height: 663px; }
+
+.b4 { min-height: 445px; }
+
+.b5 { min-height: 333px; }
+
+.b6 { min-height: 663px; }
+
+.b7 { min-height: 520px; }
+
+.b8 { min-height: 286px; }
