@@ -1,70 +1,43 @@
-.article-item {
-    text-align: justify;
-    margin-bottom: 22px;
+
+.page_title {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 4px;
 }
 
-.article-item .header {
-    margin-bottom: 12px;
-}
 
-        .article-item .header_border {
-            border-bottom: 1px solid #bf1e2d;
-        }
+.text_page { font: 14px 'PT Sans', sans-serif; }
 
-    .article-item .date {
-        color: #bf1e2d;
-        margin-top: 12px;
+ .text_page h1,
+ .text_page h2,
+ .text_page h3,
+ .text_page h4,
+ .text_page p,
+ .text_block p,
+ .text_page ul,
+ .text_block ul,
+ .text_page ol li,
+ .text_page table { margin-bottom: 15px; }
+
+ .text_page h1 {
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .text_page h2 {
+   font-size: 15px;
+   font-weight: bold;
+ }
+
+  .text_page ul,
+  .text_block ul { list-style: none; }
+
+    .text_page ul li:before,
+    .text_block ul li:before { content: "-"; }
+
+    .text_page li,
+    .text_block li {
+        padding-left: 10px;
+        list-style-position: inside;
     }
-
-    .article-item .header-title,
-    .article-item .header-subtitle {
-        text-transform: uppercase;
-        
-    }
-
-    .article-item .header-title {
-        font-size: 16px;
-        margin-bottom: 4px;
-    }
-
-    .article-item .header-subtitle {
-        color: #bf1e2d;
-        margin-bottom: 4px;
-        font-size: 18px;
-    }
-
-.article-item .photo {
-    float: left;
-    margin-right: 16px;
-    margin-bottom: 16px;
-}
-
-.article-item .photo_main {
-    margin-bottom: 22px;
-}
-
-.article-item .social {
-    text-align: right;
-}
-
-
-.article-item h1,
-.article-item h2,
-.article-item h3,
-.article-item h4,
-.article-item h5,
-.article-item p {
-    margin-bottom: 22px;
-}
-
-
-
-.header-title {
-    color: #bf1e2d;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-.articles_list_item p {
-    margin-bottom: 16px;
-}
