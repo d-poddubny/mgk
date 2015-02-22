@@ -11,7 +11,8 @@
                 item: '.carousel-item',
                 wrapper: '.carousel-wrapper',
                 itemsToScroll: 1,
-                scrollSpead: 200
+                scrollSpead: 200,
+                autoScrollTime: 3000
             }, options)
         
         var $carousel = this,
@@ -66,6 +67,15 @@
             var scrollTo = activePageNumber + settings.itemsToScroll
             API.go(scrollTo)
         })
+
+        setInterval(function () {
+            var scrollTo = activePageNumber + settings.itemsToScroll
+
+            if (scrollTo > itemQuant)
+                scrollTo = 1
+
+            API.go(scrollTo)
+        }, settings.autoScrollTime)
 
         return this
 
