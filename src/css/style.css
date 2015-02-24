@@ -662,10 +662,10 @@ input[type="submit"] {
     margin-bottom: 20px;
     position: relative;
     font: 14px "PT Sans", Tahoma, sans-serif;
-    overflow: hidden;
   }
 
     .gallery_archive_content {
+      opacity: 0;
       position: absolute;
       top: 0;
       left: 0;
@@ -675,7 +675,63 @@ input[type="submit"] {
       padding: 16px 13px 24px;
       border: 1px solid #696969;
       background-color: #fff;
+
+      transform: perspective(0) rotateX(90deg);
+
+      -webkit-animation-duration: 0.2s;
+      -moz-animation-duration: 0.2s;
+      -o-animation-duration: 0.2s;
+      animation-duration: 0.2s;
+      
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+
     }
+
+      .gallery_archive_content.active {
+        -webkit-backface-visibility: visible !important;
+        backface-visibility: visible !important;
+        -webkit-animation-name: perspectiveUp;
+        animation-name: perspectiveUp; 
+      }
+
+      @-webkit-keyframes perspectiveUp {
+        0% {
+          -webkit-transform-origin: 0 0;
+          -webkit-transform: perspective(800px) rotateX(180deg);
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 0.4; 
+        }
+
+        100% {
+          -webkit-transform-origin: 0 0;
+          -webkit-transform: perspective(800px) rotateX(0deg);
+          opacity: 1;
+        }
+      }
+
+      @keyframes perspectiveUp {
+        0% {
+          transform-origin: 0 0;
+          transform: perspective(800px) rotateX(180deg);
+          opacity: 0;
+        }
+        
+        50% {
+          opacity: 0.4; 
+        }
+
+        100% {
+          transform-origin: 0 0;
+          transform: perspective(800px) rotateX(0deg);
+          opacity: 1;
+        }
+      }
 
       .gallery_archive_content p { margin-bottom: 15px; }
 
