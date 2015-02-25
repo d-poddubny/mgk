@@ -615,11 +615,10 @@ input[type="submit"] {
 
   .auth_popup input[type="text"],
   .auth_popup input[type="password"] {
-    width: 256px;
+    width: 100%;
     height: 42px;
     padding: 0 8px;
     margin-bottom: 14px;
-    line-height: 42px;
     font-size: 14px;
   }
 
