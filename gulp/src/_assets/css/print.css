@@ -1,0 +1,8 @@
+@media print {
+}
+
+.page_header,
+.main_nav,
+.pagination {
+	display: none;
+}

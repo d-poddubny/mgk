@@ -1,0 +1,43 @@
+{% extends '../layout/default.html' %}
+
+
+{% block mainnav %}
+    //= ../parts/nav.main.html
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="row top_block clearfix">
+    <div class="col_t1">
+        //= ../parts/photos.archive.html
+    </div>
+
+    <div class="col_t2">
+        //= ../parts/themes.mine.html
+    </div>
+</div>
+
+<div class="row clearfix">
+    <div class="col_t1">
+        //= ../parts/events.list.html
+    
+        //= ../parts/form.faq.html
+    </div>
+
+    <div class="col_t2">
+        //= ../parts/discussion.list.html
+    </div>
+
+</div>
+
+//= ../parts/archive.list.html
+
+{% endblock %}
+
+
+{% block popups %}
+    
+    //= ../parts/popup.auth.html
+
+{% endblock %}

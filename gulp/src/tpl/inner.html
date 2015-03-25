@@ -1,0 +1,45 @@
+{% extends '../layout/default.html' %}
+
+
+{% block mainnav %}
+    //= ../parts/nav.main.html
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="page_title">{{ page.title|safe }}</div>
+
+    <!--
+    <nav class="breadcrumb">
+        <ol>
+            <li><a href="mgk/infopage.html">Главная</a></li>
+            <li><a href="mgk/infopage.html">Раздел</a></li>
+            <li>Декларация "О Некоммерческом партнерстве "МГК" и Сообществе МГК</li>
+        </ol>
+    </nav>
+    -->
+
+    <div class="layout text_page">
+
+        {{ content|safe }}
+
+    </div>
+
+    <!--
+    <div class="pages">
+        <span>1</span>
+        <a href="mgk/infopage.html">2</a>
+        <a href="mgk/infopage.html">3</a>
+        <a href="mgk/infopage.html">4</a>
+    </div>
+    -->
+
+{% endblock %}
+
+
+{% block popups %}
+    
+    //= ../parts/popup.auth.html
+
+{% endblock %}
