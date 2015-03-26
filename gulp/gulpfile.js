@@ -33,28 +33,28 @@ var siteInfo = require('./src/_config/info.json'),
     path = {
         build: {
             root:       './build/',
-            static:     './build/_assets/',
-            js:         './build/_assets/js/',
-            js_vendor:  './build/_assets/js/vendor/',
-            css:        './build/_assets/css/',
-            css_vendor: './build/_assets/css/vendor/',
-            img:        './build/_assets/img/',
-            files:      './build/_assets/files/',
-            fonts:      './build/_assets/fonts/'
+            static:     './build/assets/',
+            js:         './build/assets/js/',
+            js_vendor:  './build/assets/js/vendor/',
+            css:        './build/assets/css/',
+            css_vendor: './build/assets/css/vendor/',
+            img:        './build/assets/img/',
+            files:      './build/assets/files/',
+            fonts:      './build/assets/fonts/'
         },
 
         src: {
-            rootFiles:  './src/*.*',  // , '!./src/layout/', '!./src/html/', '!./src/_config/'
+            rootFiles:  './src/*.*', // !_config/  // , '!./src/layout/', '!./src/html/', '!./src/_config/'
             tplDir:     './src/tpl/',
             content:    ['./src/content/**/*.md', './src/content/**/*.html', '!./src/**/README.md'],
-            js:         ['./src/_assets/js/**/*.js', '!./src/_assets/js/vendor/**/*.js'],
-            js_vendor:  ['./src/_assets/js/vendor/**/*.js'],
-            less:       ['./src/_assets/css/**/*.less'],
-            css:        ['./src/_assets/css/**/*.css', '!./src/_assets/css/vendor/**/*.css'],
-            css_vendor: ['./src/_assets/css/vendor/**/*.css'],
-            img:        ['./src/_assets/img/**/*', '!./src/_assets/img/**/README.md'],
-            files:      ['./src/_assets/files/**/*', '!./src/_assets/files/**/README.md'],
-            fonts:      ['./src/_assets/fonts/**/*']
+            js:         ['./src/assets/js/**/*.js', '!./src/assets/js/vendor/**/*.js'],
+            js_vendor:  ['./src/assets/js/vendor/**/*.js'],
+            less:       ['./src/assets/css/**/*.less'],
+            css:        ['./src/assets/css/**/*.css', '!./src/assets/css/vendor/**/*.css'],
+            css_vendor: ['./src/assets/css/vendor/**/*.css'],
+            img:        ['./src/assets/img/**/*', '!./src/assets/img/**/README.md'],
+            files:      ['./src/assets/files/**/*', '!./src/assets/files/**/README.md'],
+            fonts:      ['./src/assets/fonts/**/*']
         }
     },
     config = {
@@ -167,7 +167,7 @@ gulp.task('files:copy', function () {
         .pipe(gulp.dest(path.build.files))
         .pipe(reload({stream: true}))
 
-    gulp.src([path.src.rootFiles, '!./src/**/README.md'])
+    gulp.src([path.src.rootFiles, './src/CNAME', '!./src/**/README.md'])
         .pipe(gulp.dest(path.build.root))
         .pipe(reload({stream: true}))
 })
