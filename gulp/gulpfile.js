@@ -84,9 +84,34 @@ var applyTemplate = function () {
 
         var tpl = swig.compileFile(filepath.join(__dirname, path.src.tplDir + file.page.template + '.html'))
 
+        var breadcrumbs = function () {
+            /*
+            * EXAMPLE:
+            * breadcrumbs:
+            *    - { url: "main/page1", name: "главная1" }
+            *    - { url: "main/page2", name: "главная2" }
+            */
+            var html = ''
+            html += '<nav class="breadcrumb">'
+            html += '<ol>'
+            html += '<li><a href="/">Главная</a></li>'
+
+            if (file.page.breadcrumbs) {
+                file.page.breadcrumbs.forEach(function (item) {
+                    html += '<li><a href="' + item.url + '">' + item.name + '</a></li>'
+                })
+            }
+            
+            if (file.page.title) html += '<li>' + file.page.title + '</li>'
+            html += '</ol>'
+            html += '</nav>'
+            return html
+        }
+
         var data = {
             site: siteInfo,
             page: file.page,
+            breadcrumbs: breadcrumbs,
             content: file.contents.toString()
         }
 
@@ -182,7 +207,7 @@ gulp.task('html:build', function () {
     gulp.src(path.src.content)
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(marked())
-        .pipe(summarize('<!--more-->'))
+        //.pipe(summarize('<!--more-->'))
         .pipe(applyTemplate())
         .pipe(rigger())
         .pipe(gulp.dest(path.build.root))

@@ -1,3 +1,65 @@
 ---
 title:          'Инициативы, проекты, программы МГК'
 ---
+
+- МЕНЮ «ИНФОРМАЦИОННЫЙ ОБМЕН»
+    - [РЕКОМЕНДУЕМЫЕ КЛИНИКИ И СПЕЦИАЛИСТЫ](/informacionnyj-obmen/luchshie-kliniki-i-mediki.html)
+    - [ОТДАМ БЕЗВОЗМЕЗДНО](/informacionnyj-obmen/otdam-bezvozmezdno.html)
+    - [ОТДАМ БЕЗВОЗМЕЗДНО](/informacionnyj-obmen/otdam-bezvozmezdno.html) И [ОЖИДАНИЯ](/)
+    - [НУЖЕН СОВЕТ](/informacionnyj-obmen/nuzhen-sovet.html)
+    - [РЕКОМЕНДУЮ](/informacionnyj-obmen/rekomenduyu.html)
+    - [СОВМЕСТНЫЕ ПОКУПКИ](/vzaimopomoshh/sovmestnye-pokupki.html)
+- МЕНЮ «ТРАДИЦИИ»
+    - [ЗНАМЕНАТЕЛЬНЫЕ ДАТЫ](/patrioticheskoe-vospitanie/znamenatelnye-daty.html)
+    - [100-ЛЕТИЕ ВЛКСМ](/patrioticheskoe-vospitanie/100-letie-vlksm.html)
+    - [ПЕРЕДАЧА ЛУЧШЕГО ОПЫТА](/)
+    - [КОМСОМОЛЬСКИЙ АЛЬБОМ](/)
+    - [ПАМЯТЬ РОДА](/patrioticheskoe-vospitanie/pamyat-roda.html)
+    - [ПОИСК, ПРОПАВШИХ БЕЗ ВЕСТИ НА ВОЙНЕ](/patrioticheskoe-vospitanie/poisk-propavshix-bez-vesti-na-vojne.html)
+
+
+- МЕНЮ «ИСТОРИЯ»>
+    - [ГАЛЕРЕЯ КОМСОМОЛЬСКОЙ ПАМЯТИ](/istoriya/galereya-komsomolskoj-pamyati.html)
+    - [ФОТОАРХИВ МГК](/istoriya/fotoarxiv/)
+    - [ВИДЕОАРХИВ МГК](/istoriya/videoarxiv/)
+    - [АРХИВНЫЕ ДОКУМЕНТЫ МГК](/istoriya/arxivnye-dokumenty.html)
+    - [ВОССОЗДАЕМ ИСТОРИЮ МОСКОВСКОГО КОМСОМОЛА](/istoriya/vossozdaem-istoriyu-moskovskogo-komsomola.html)
+    - [ИСТОРИЧЕСКИЕ ПУБЛИКАЦИИ МГК](/istoriya/istoricheskie-publikacii.html)
+    - [МУЗЕЙ ИСТОРИИ МОСКОВСКОГО КОМСОМОЛА](/istoriya/muzej-istorii-moskovskogo-komsomola.html)
+
+
+- ИНИЦИАТИВЫ, ПРОЕКТЫ И ПРОГРАММЫ - «ЗАКРЫТАЯ» ЧАСТЬ САЙТА МГК
+    - [СОТРУДНИЧЕСТВО](/vnimanie.html)
+    - [БИЗНЕС-СОТРУДНИЧЕСТВО (ПРЕДЛОЖЕНИЯ И Т.Д.)](/vnimanie.html)
+    - [АНТИКОНТРАФАКТ](/vnimanie.html)
+    - [СОВМЕСТНОЕ ПРОДВИЖЕНИЕ](/vnimanie.html)
+    - [ПРЕДПРИЯТИЯ МГК](/vnimanie.html)
+    - [ГРАНТЫ](/vnimanie.html)
+    - [РАЗВИТИЕ ОРГАНИЗАЦИЙ](/vnimanie.html)
+    - [МОЛОДЕЖНЫЕ ЖИЛЫЕ КОМПЛЕКСЫ](/vnimanie.html)
+    - [ВЗАИМОПОМОЩЬ](/vnimanie.html)
+    - [ТРУДОВАЯ ЗАНЯТОСТЬ](/vnimanie.html)
+    - [ВАКАНСИИ ОРГАНИЗАЦИЙ](/vnimanie.html)
+    - [ВАКАНСИИ КАДРОВЫХ АГЕНТСТВ](/vnimanie.html)
+    - [ЗДОРОВЬЕ](/vnimanie.html)
+    - [ОБЩЕСТВЕННЫЙ СОВЕТ «МЕДКОНСАЛТ»](/vnimanie.html)
+    - [РЕКОМЕНДУЕМЫЕ КЛИНИКИ И МЕДИКИ](/vnimanie.html)
+    - [ОРГАНИЗАЦИЯ ДИАГНОСТИКИ ЗАБОЛЕВАНИЙ](/vnimanie.html)
+    - [ЗАЩИТА ОТ ЭЛЕКТРОМАГНИТНОГО ИЗЛУЧЕНИЯ](/vnimanie.html)
+    - [ЛЮДИ С ОГРАНИЧЕННЫМИ ВОЗМОЖНОСТЯМИ](/vnimanie.html)
+    - [БЕСПЛАТНОЕ ИНТЕРНЕТ-ОБУЧЕНИЕ](/vnimanie.html)
+    - [СКИДКИ ОРГАНИЗАЦИЙ](/vnimanie.html)
+    - [СОВМЕСТНОЕ ИСПОЛЬЗОВАНИЕ](/vnimanie.html)
+    - [СОВМЕСТНЫЕ ПОКУПКИ](/vnimanie.html)
+    - [ПРОДОВОЛЬСТВЕННАЯ ПОТРЕБИТЕЛЬСКАЯ КОРЗИНА](/vnimanie.html)
+    - [ЗАЩИТА ИНТЕРЕСОВ](/vnimanie.html)
+    - [ВОЗМОЖНОСТИ](/vnimanie.html)
+    - [ОБЩЕЕ ДЕЛО МГК](/vnimanie.html)
+    - [УСПЕШНЫЕ ЛЮДИ](/vnimanie.html)
+    - [ПЕРСОНАЛИИ](/vnimanie.html)
+    - [ПРОФЕССИОНАЛЬНЫЕ КОМПЕТЕНЦИИ](/vnimanie.html)
+    - [ПОЛЕЗНЫЕ СВЯЗИ](/vnimanie.html)
+    - [ОРГАНИЗАЦИИ ЧЛЕНОВ СООБЩЕСТВА МГК](/vnimanie.html)
+    - [ИНТЕРЕСЫ](/vnimanie.html)
+    - [КЛУБ ДРУЗЕЙ МГК](/vnimanie.html)
+    - [ИНТЕРЕСЫ [ХОББИ]](/vnimanie.html)

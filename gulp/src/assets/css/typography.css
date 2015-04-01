@@ -3,7 +3,7 @@
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 4px;
+  margin-bottom: 24px;
 }
 
 
@@ -34,10 +34,28 @@
   .text_block ul { list-style: none; }
 
     .text_page ul li:before,
-    .text_block ul li:before { content: "-"; }
+    .text_block ul li:before {
+      left: -5px;
+      position: relative;
+      content: "-";
+    }
 
     .text_page li,
     .text_block li {
         padding-left: 10px;
         list-style-position: inside;
     }
+
+.text_page table {
+  border: 1px solid #999;
+}
+  .text_page table th {
+    border: 1px solid #999;
+    background: #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  .text_page table td {
+    border: 1px solid #999;
+    padding: 10px;
+  }

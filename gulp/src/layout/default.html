@@ -39,7 +39,9 @@
             <div class="page_content_wrapp">
                 <div class="page_content main">
                     
-                    {% block mainnav %}{% endblock %}
+                    <nav class="main_nav">
+                        {% block mainnav %}{% endblock %}
+                    </nav>
 
                     {% block content %}{% endblock %}
 
@@ -51,9 +53,7 @@
         <footer class="page_footer">
             <div class="content_wrapp">
                 <div class="page_footer_content">
-                                        
-                    //= ../parts/nav.footer.html
-
+                    
                     <div class="col col--adrr">
                         <a href="/" class="logo">Некоммерческое партнерство «МГК»</a>
 
@@ -76,6 +76,12 @@
                         </div>
 
                     </div>
+
+                    <div class="nav">                    
+                        //= ../parts/nav.main.html
+                        <div class="copyright">&copy; 2014  Неокммерчесок партнерство «МГК»</div>
+                    </div>
+
                 </div>
             </div>
         </footer>
