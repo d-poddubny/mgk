@@ -4,10 +4,10 @@ prose:
   siteurl: 'http://mgk.3.14lab.net'
   ignore:
     - index.md
-    - ./src/_config
-    - ./src/parts
-    - ./src/parts
-    - ./src/tpl
+    - src/_config
+    - src/layout
+    - src/parts
+    - src/tpl
   metadata:
     src/content:
       - name: "title"
