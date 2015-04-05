@@ -9,7 +9,7 @@ prose:
     - tpl
     - CNAME
   metadata:
-    src/content:
+    content:
       - name: "title"
         field:
           element: "text"
