@@ -1,6 +1,6 @@
 prose:
-  rooturl: './src'
-  media: './src/assets/files'
+  rooturl: 'src'
+  media: 'src/assets/files'
   siteurl: 'http://mgk.3.14lab.net'
   ignore:
     - index.md
