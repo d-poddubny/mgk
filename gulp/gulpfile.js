@@ -243,6 +243,23 @@ gulp.task('deploy', function () {
         .pipe(ghPages());
 })
 
+gulp.task('build', [
+
+    'html:build',
+    
+    'js:lint',
+    'js:minify',
+    'js:vendor',
+    
+    'img:copy',
+    
+    'css:less',
+    'css:copy',
+    'css:vendor',
+
+    'files:copy',    
+])
+
 gulp.task('default', [
 
     'html:build',
