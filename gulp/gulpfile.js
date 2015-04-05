@@ -11,8 +11,8 @@ var gulp = require('gulp'),
 
     sourcemaps = require('gulp-sourcemaps'),
 
-    imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant'),
+    //imagemin = require('gulp-imagemin'),
+    //pngquant = require('imagemin-pngquant'),
 
     less = require('gulp-less'),
     prefixer = require('gulp-autoprefixer'),
