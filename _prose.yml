@@ -1,13 +1,18 @@
 prose:
-    rooturl: 'src/content'
-    media: 'src/assets/files'
-    siteurl: 'mgk.3.14lab.net'
-    metadata:
-        content:
-            - name: "title":
-              field:
-                element: "text"
-                label: "Title"
-                help: "Название страницы"
-                placeholder: "Введите название страницы"
-                
+  rooturl: './src'
+  media: './src/assets/files'
+  siteurl: 'http://mgk.3.14lab.net'
+  ignore:
+    - index.md
+    - ./src/_config
+    - ./src/parts
+    - ./src/parts
+    - ./src/tpl
+  metadata:
+    src/content:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          help: "The blog post title"
+          placeholder: "Enter title"
