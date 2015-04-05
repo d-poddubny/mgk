@@ -1,0 +1,22 @@
+language: node_js
+
+node_js:
+- '0.10'
+
+install:
+  - npm install -g gulp
+  - npm install
+
+before_script:
+  - git remote set-url origin "https://${GH_TOKEN}@github.com/d-poddubny/mgk"
+  - git config --global user.email "deploy@travis-ci.org"
+  - git config --global user.name "Travis-CI"
+
+script:
+  - gulp clean
+  - gulp
+  - gulp deploy
+
+env:
+  global:
+    secure: GmD22L7Ix7+HFc+DrgdSn25G6TXSHUuC0gjw+ym9lfQ0q2LLEUFpKAv7vpn8Cc/8IAKtJqLUcC7lsVMQzT2lI9H1H/pTuNmqlbPdnoBviBJWi0xoNfiMAHh12VgPO20rigZBrWfrUJbsSTqX/Ayj093PJoEyaS3LxY+/fS7N58E=
