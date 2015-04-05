@@ -257,7 +257,7 @@ gulp.task('build', [
     'css:copy',
     'css:vendor',
 
-    'files:copy',    
+    'files:copy'
 ])
 
 gulp.task('default', [
