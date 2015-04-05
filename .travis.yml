@@ -1,7 +1,7 @@
 branches:
   only:
   - master
-  
+
 language: node_js
 
 node_js:
@@ -12,7 +12,7 @@ install:
   - npm install
 
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/d-poddubny/mgk"
+  - git remote set-url origin "https://xxx@github.com/d-poddubny/mgk"
   - git config --global user.email "css.exports@gmail.com"
   - git config --global user.name "d-poddubny"
 
