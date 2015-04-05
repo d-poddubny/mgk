@@ -26,8 +26,9 @@ var gulp = require('gulp'),
     through = require('through2'),
 
     browserSync = require("browser-sync"),
-    reload = browserSync.reload
+    reload = browserSync.reload,
 
+    ghPages = require('gulp-gh-pages')
 
 var siteInfo = require('./src/_config/info.json'),
     path = {
@@ -235,6 +236,11 @@ gulp.task('webserver', function () {
 
 gulp.task('clean', function(cb) {
     rimraf(path.build.root, cb)
+})
+
+gulp.task('deploy', function () {
+    return gulp.src(path.build.root + '**/*')
+        .pipe(ghPages());
 })
 
 gulp.task('default', [

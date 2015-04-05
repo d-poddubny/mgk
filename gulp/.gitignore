@@ -1,5 +1,6 @@
 node_modules
 bower_components
 build
+.publish
 .DS_Store
 Thumbs.db
