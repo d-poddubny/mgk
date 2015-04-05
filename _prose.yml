@@ -5,6 +5,5 @@ prose:
   ignore:
     - _config
     - layout
-    - parts
     - tpl
     - CNAME
