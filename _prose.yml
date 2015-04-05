@@ -3,11 +3,11 @@ prose:
   media: 'src/assets/files'
   siteurl: 'http://mgk.3.14lab.net'
   ignore:
-    - index.md
     - _config
     - layout
     - parts
     - tpl
+    - CNAME
   metadata:
     src/content:
       - name: "title"
