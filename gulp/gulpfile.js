@@ -30,6 +30,8 @@ var gulp = require('gulp'),
 
     ghPages = require('gulp-gh-pages')
 
+ghPages({remoteUrl: '../'})
+
 var siteInfo = require('./src/_config/info.json'),
     path = {
         build: {

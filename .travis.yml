@@ -8,11 +8,13 @@ install:
   - npm install -g gulp
   - npm install
 
-script:
-  - gulp clean
+before_script:
   - git remote set-url origin "https://${GH_TOKEN}@github.com/d-poddubny/mgk"
   - git config --global user.email "css.exports@gmail.com"
   - git config --global user.name "d-poddubny"
+
+script:
+  - gulp clean
   - gulp build
   - gulp deploy
 
