@@ -1,26 +1,20 @@
 branches:
   only:
   - master
-
 language: node_js
-
 node_js:
 - '0.10'
-
 install:
-  - npm install -g gulp
-  - npm install
-
+- npm install -g gulp
+- npm install
 before_script:
-  - git remote set-url origin "https://xxx@github.com/d-poddubny/mgk"
-  - git config --global user.email "css.exports@gmail.com"
-  - git config --global user.name "d-poddubny"
-
+- git remote set-url origin "https://${GH_TOKEN}@github.com/d-poddubny/mgk"
+- git config --global user.email "css.exports@gmail.com"
+- git config --global user.name "d-poddubny"
 script:
-  - gulp clean
-  - gulp build
-  - gulp deploy
-
+- gulp clean
+- gulp build
+- gulp deploy
 env:
   global:
-    secure: GmD22L7Ix7+HFc+DrgdSn25G6TXSHUuC0gjw+ym9lfQ0q2LLEUFpKAv7vpn8Cc/8IAKtJqLUcC7lsVMQzT2lI9H1H/pTuNmqlbPdnoBviBJWi0xoNfiMAHh12VgPO20rigZBrWfrUJbsSTqX/Ayj093PJoEyaS3LxY+/fS7N58E=
+    secure: STg/94x133IyTijhKFauXhBKi0y6UlAtaNdxN6MSLew0DcntK9IwxaDITJewXmUO9X2nwQ8UoKFiD5+HaCqWvJ3aX0RwprR/WXYIoq9tpPjP6YEbfJoRZKn55MjuzVHlrXjz0AErSDl7KDEngI43MN58Gh5gaWVlge8nuPpoKlk=
