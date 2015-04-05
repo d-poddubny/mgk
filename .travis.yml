@@ -13,6 +13,7 @@ before_script:
   - git config --global user.name "Travis-CI"
 
 script:
+  - cd gulp
   - gulp clean
   - gulp
   - gulp deploy
