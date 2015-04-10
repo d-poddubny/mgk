@@ -580,8 +580,14 @@ input[type="submit"] {
 #news-carousel1 .carousel-item {
 	width: 650px;
 	height: 400px;
+  position: relative;
 }
 
+#news-carousel1 .carousel-item img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 
 
 
@@ -1340,3 +1346,12 @@ input[type="submit"] {
 
   body.ordena .text_page th, body.ordena .text_page td { background: #fff; text-align: center;}
   body.pesni .text_page audio { margin-bottom: 30px; }
+
+
+
+  .mgk-photoarchive { text-align: center; }
+    .mgk-photoarchive img { width: 44%; margin: 2%;  float: left; }
+
+  .comsomol-ticket {}
+    .comsomol-ticket img { width: 100%; }
+    .comsomol-ticket p {}
