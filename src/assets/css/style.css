@@ -293,7 +293,7 @@ input[type="submit"] {
 
 
 .news_block .block_content {
-  height: 347px;
+  height: 376px;
   overflow: hidden;
 }
 
@@ -349,7 +349,6 @@ input[type="submit"] {
 .news_list { list-style: none; }
 
   .news_list li {
-    height: 113px;
     padding: 1px;
     border-bottom: 1px solid #e0e0e0;
     overflow: hidden;
@@ -422,7 +421,8 @@ input[type="submit"] {
 .top_articles .info_panel { margin: 0 20px 2px; }
 
 .top_articles .text {
-  height: 138px;
+  /*height: 138px;*/
+  height: 168px;
   padding: 0 20px;
   overflow: hidden;
 }
@@ -497,6 +497,7 @@ input[type="submit"] {
   .filter td {
   	border: 1px solid #e0e0e0;
   	border-bottom: 0;
+    vertical-align: top;
   }
 
   .filter th:first-child,
@@ -1355,3 +1356,18 @@ input[type="submit"] {
   .comsomol-ticket {}
     .comsomol-ticket img { width: 100%; }
     .comsomol-ticket p {}
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.text-author { margin-bottom: 20px; font-style: italic; }
+
+
+
+.news_list_2 li { padding: 20px;}
+.top_articles2 .text { height: 95px; }
+
+
+.js-dates-block .dates-list ul {
+  display: none;
+}
