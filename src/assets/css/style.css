@@ -1347,7 +1347,12 @@ input[type="submit"] {
 
   body.ordena .text_page th, body.ordena .text_page td { background: #fff; text-align: center;}
   body.pesni .text_page audio { margin-bottom: 30px; }
+  body.ordena .text_page table img { height: 218px;  }
 
+  body.znamya .text_page table { width: 800px; margin: 0 auto; text-align: center; background: #fff; }
+  body.znamya .text_page img { height: 300px; }
+  body.znamya .text_page th { display: none; }
+  body.znamya .text_page td { width: 50%; }
 
 
   .mgk-photoarchive { text-align: center; }
