@@ -1376,3 +1376,39 @@ input[type="submit"] {
 .js-dates-block .dates-list ul {
   display: none;
 }
+
+.person-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 485px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #fff;
+  min-height: 200px;
+}
+.person-box:nth-child(even) {
+  margin-left: 20px;
+}
+
+  .person-box img { float: left; height: 150px; margin-right: 20px; }
+  .person-box strong { display: block; margin-bottom: 10px; }
+  .person-box .tel { display: block; color: #ccc; margin-left: 150px; padding-top: 15px;  margin-bottom: -15px; }
+  .person-box .empty { margin-left: 0; }
+
+
+.momoryGallery .text_page {
+  text-align: center;
+  margin-top: -60px;
+}
+
+.momoryGallery .text_page img {
+  height: 600px;
+  margin-top: 60px;
+  border: 15px solid #fff;
+}
+.momoryGallery .text_page h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 0;
+}
