@@ -1412,3 +1412,5 @@ input[type="submit"] {
   font-size: 20px;
   margin-bottom: 0;
 }
+
+.message-item { float: left; margin-right: 15px; }
