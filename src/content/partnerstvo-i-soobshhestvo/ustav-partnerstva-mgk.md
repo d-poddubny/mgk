@@ -4,13 +4,7 @@ published: true
 ---
 
 
-  <style>
-   @media print {
-    .more {
-     page-break-before: always;
-    } 
-   } 
-  </style>
+
 <p align="right">УТВЕРЖДЕН</p>
 <p align="right">Общим собранием Учредителей</p>
 <p align="right">Некоммерческого партнерства содействия</p>
@@ -22,25 +16,6 @@ published: true
 
 <p align="center"><h1><b>Некоммерческого партнерства содействия в сохранении </b> </p>
 <p align="center"><h1><b>и развитии лучших традиций московской молодежи «МГК»</b></h1></p>
-
-
-
-
-
-
-
-
-
-<p class="more"; align="center"> г. Москва, 2014 год</p>
-
-
-
-
-
-
-
-
-
 
 1. **ОБЩИЕ ПОЛОЖЕНИЯ**
 
